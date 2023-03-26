@@ -10,7 +10,7 @@ var productsRouter = require('./routes/products');
 var app = express();
 const dotenv = require("dotenv");
 dotenv.config();
-const mongo = require('./config/dbconfig');
+const mongo = require('./config/dbConfig');
 
 const cors = require('cors');
 app.use(cors());
